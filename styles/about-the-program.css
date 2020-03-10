@@ -1,0 +1,29 @@
+.card{
+    -webkit-box-shadow: 0 0.4rem 0.8rem rgba(0,0,0,0.1);
+    box-shadow: 0 0.4rem 0.8rem rgba(0,0,0,0.1)
+}
+
+.card:hover{
+    -webkit-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    transform: scale(1.02);
+    -webkit-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+
+.card-block{
+    margin-bottom:0;
+    padding:0;
+}
+
+.directory-profile .profile-img-container{
+    margin-top: -15rem;
+    margin-bottom: 10px;
+}
+
+.large-margin-top-mobile{
+    margin-top:120px;
+}
+
+

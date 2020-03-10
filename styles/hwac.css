@@ -1,0 +1,68 @@
+body {
+    background-image: url("https://www.westminstercollege.edu/docs/default-source/developer-resource-files/all-pages/content-files/logos/primary-logo-large/westminster-primary-logo-large-thistle.svg?sfvrsn=2");
+    background-color: black;
+    background-size: 15%;
+    background-repeat: no-repeat;
+    background-position: center;
+  
+  }
+  
+  #edit-page body, .sfPageEditorWrp body {
+  
+      background-image: unset;
+      background-color: unset;
+      background-size: unset;
+      background-repeat: unset;
+      background-position: unset;
+  
+  
+  }
+  
+  #edit-page body .rdCenter > .rdContent > .sf-Code > pre, .sfPageEditorWrp body  .rdCenter > .rdContent > .sf-Code > pre {
+      color: black;
+      padding: 15px;
+      margin: 0 auto 15px auto;
+  }
+  
+  .sfPageEditorWrp body .sfPublicWrapper {
+      overflow-y: scroll;
+      padding-bottom: 45px;
+  }
+  
+  /*add to after.css*/
+  
+  
+  .sf-backend-wrp pre.CodeMirror-cursor {
+      background: none !important;
+      height: 18px !important;
+      width: 2px !important;
+      min-width: 2px !important;
+      max-width: 2px !important;
+      border: 0px solid black !important;
+      border-left: 2px solid black !important;
+      transition: 0s all !important;
+  }
+  
+  
+  #custom-body-container-pre-footer-digital-signage {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      z-index: 1000;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: #000;
+      z-index: 1000;
+      display: flex;
+      opacity: 0;
+  }
+  
+  .sfPageEditor #custom-body-container-pre-footer-digital-signage  {
+      display: none !important;
+  }
+  
+  .vidFade > div {
+      width: 100%;
+  }

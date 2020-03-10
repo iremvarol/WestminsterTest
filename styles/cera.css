@@ -1,0 +1,109 @@
+@import url("//hello.myfonts.net/count/32b7f0");
+@font - face {
+    font - family: 'CeraPRO-BlackItalic';
+    src: url("../fonts/cera/32B7F0_0_0.eot");
+    src: url("../fonts/cera/32B7F0_0_0.eot?#iefix") format("embedded-opentype"), url("../fonts/cera/32B7F0_0_0.woff2") format("woff2"), url("../fonts/cera/32B7F0_0_0.woff") format("woff"), url("../fonts/cera/32B7F0_0_0.ttf") format("truetype")
+}
+@font - face {
+    font - family: 'CeraPRO-BoldItalic';
+    src: url("../fonts/cera/32B7F0_1_0.eot");
+    src: url("../fonts/cera/32B7F0_1_0.eot?#iefix") format("embedded-opentype"), url("../fonts/cera/32B7F0_1_0.woff2") format("woff2"), url("../fonts/cera/32B7F0_1_0.woff") format("woff"), url("../fonts/cera/32B7F0_1_0.ttf") format("truetype")
+}
+@font - face {
+    font - family: 'CeraPRO-LightItalic';
+    src: url("../fonts/cera/32B7F0_2_0.eot");
+    src: url("../fonts/cera/32B7F0_2_0.eot?#iefix") format("embedded-opentype"), url("../fonts/cera/32B7F0_2_0.woff2") format("woff2"), url("../fonts/cera/32B7F0_2_0.woff") format("woff"), url("../fonts/cera/32B7F0_2_0.ttf") format("truetype")
+}
+@font - face {
+    font - family: 'CeraPRO-Black';
+    src: url("../fonts/cera/32B7F0_3_0.eot");
+    src: url("../fonts/cera/32B7F0_3_0.eot?#iefix") format("embedded-opentype"), url("../fonts/cera/32B7F0_3_0.woff2") format("woff2"), url("../fonts/cera/32B7F0_3_0.woff") format("woff"), url("../fonts/cera/32B7F0_3_0.ttf") format("truetype")
+}
+@font - face {
+    font - family: 'CeraPRO-Light';
+    src: url("../fonts/cera/32B7F0_4_0.eot");
+    src: url("../fonts/cera/32B7F0_4_0.eot?#iefix") format("embedded-opentype"), url("../fonts/cera/32B7F0_4_0.woff2") format("woff2"), url("../fonts/cera/32B7F0_4_0.woff") format("woff"), url("../fonts/cera/32B7F0_4_0.ttf") format("truetype")
+}
+@font - face {
+    font - family: 'CeraPRO-Bold';
+    src: url("../fonts/cera/32B7F0_5_0.eot");
+    src: url("../fonts/cera/32B7F0_5_0.eot?#iefix") format("embedded-opentype"), url("../fonts/cera/32B7F0_5_0.woff2") format("woff2"), url("../fonts/cera/32B7F0_5_0.woff") format("woff"), url("../fonts/cera/32B7F0_5_0.ttf") format("truetype")
+}
+@font - face {
+    font - family: 'CeraPRO-Medium';
+    src: url("../fonts/cera/32B7F0_6_0.eot");
+    src: url("../fonts/cera/32B7F0_6_0.eot?#iefix") format("embedded-opentype"), url("../fonts/cera/32B7F0_6_0.woff2") format("woff2"), url("../fonts/cera/32B7F0_6_0.woff") format("woff"), url("../fonts/cera/32B7F0_6_0.ttf") format("truetype")
+}
+@font - face {
+    font - family: 'CeraPRO-MediumItalic';
+    src: url("../fonts/cera/32B7F0_7_0.eot");
+    src: url("../fonts/cera/32B7F0_7_0.eot?#iefix") format("embedded-opentype"), url("../fonts/cera/32B7F0_7_0.woff2") format("woff2"), url("../fonts/cera/32B7F0_7_0.woff") format("woff"), url("../fonts/cera/32B7F0_7_0.ttf") format("truetype")
+}
+@font - face {
+    font - family: 'CeraPRO-RegularItalic';
+    src: url("../fonts/cera/32B7F0_8_0.eot");
+    src: url("../fonts/cera/32B7F0_8_0.eot?#iefix") format("embedded-opentype"), url("../fonts/cera/32B7F0_8_0.woff2") format("woff2"), url("../fonts/cera/32B7F0_8_0.woff") format("woff"), url("../fonts/cera/32B7F0_8_0.ttf") format("truetype")
+}
+@font - face {
+    font - family: 'CeraPRO-Regular';
+    src: url("../fonts/cera/32B7F0_9_0.eot");
+    src: url("../fonts/cera/32B7F0_9_0.eot?#iefix") format("embedded-opentype"), url("../fonts/cera/32B7F0_9_0.woff2") format("woff2"), url("../fonts/cera/32B7F0_9_0.woff") format("woff"), url("../fonts/cera/32B7F0_9_0.ttf") format("truetype")
+}
+@font - face {
+    font - family: 'CeraPRO-Thin';
+    src: url("../fonts/cera/32B7F0_A_0.eot");
+    src: url("../fonts/cera/32B7F0_A_0.eot?#iefix") format("embedded-opentype"), url("../fonts/cera/32B7F0_A_0.woff2") format("woff2"), url("../fonts/cera/32B7F0_A_0.woff") format("woff"), url("../fonts/cera/32B7F0_A_0.ttf") format("truetype")
+}
+@font - face {
+    font - family: 'CeraPRO-ThinItalic';
+    src: url("../fonts/cera/32B7F0_B_0.eot");
+    src: url("../fonts/cera/32B7F0_B_0.eot?#iefix") format("embedded-opentype"), url("../fonts/cera/32B7F0_B_0.woff2") format("woff2"), url("../fonts/cera/32B7F0_B_0.woff") format("woff"), url("../fonts/cera/32B7F0_B_0.ttf") format("truetype")
+}.sans--thin {
+     font - family: "CeraPRO-Thin", "Lato", sans - serif;
+     font - style: normal;
+     font - weight: normal
+ }.sans--thin - italic {
+                    font - family: "CeraPRO-ThinItalic", "Lato", sans - serif;
+                    font - style: normal;
+                    font - weight: normal
+                }.sans--light {
+                     font - family: "CeraPRO-Light", "Lato", sans - serif;
+                     font - style: normal;
+                     font - weight: normal
+                 }.sans--light - italic {
+                                     font - family: "CeraPRO-LightItalic", "Lato", sans - serif;
+                                     font - style: normal;
+                                     font - weight: normal
+                                 }.sans {
+                                      font - family: "CeraPRO-Regular", "Lato", sans - serif;
+                                      font - style: normal;
+                                      font - weight: normal
+                                  }.sans--italic {
+                                       font - family: "CeraPRO-RegularItalic", "Lato", sans - serif;
+                                       font - style: normal;
+                                       font - weight: normal
+                                   }.sans--medium {
+                                        font - family: "CeraPRO-Medium", "Lato", sans - serif;
+                                        font - style: normal;
+                                        font - weight: normal
+                                    }.sans--medium - italic {
+                                                         font - family: "CeraPRO-MediumItalic", "Lato", sans - serif;
+                                                         font - style: normal;
+                                                         font - weight: normal
+                                                     }.sans--bold {
+                                                          font - family: "CeraPRO-Bold", "Lato", sans - serif;
+                                                          font - style: normal;
+                                                          font - weight: normal
+                                                      }.sans--bold - italic {
+                                                                         font - family: "CeraPRO-BoldItalic", "Lato", sans - serif;
+                                                                         font - style: normal;
+                                                                         font - weight: normal
+                                                                     }.sans--black {
+                                                                          font - family: "CeraPRO-Black", "Lato", sans - serif;
+                                                                          font - style: normal;
+                                                                          font - weight: normal
+                                                                      }.sans--black - italic {
+                                                                                          font - family: "CeraPRO-BlackItalic", "Lato", sans - serif;
+                                                                                          font - style: normal;
+                                                                                          font - weight: normal
+                                                                                      }

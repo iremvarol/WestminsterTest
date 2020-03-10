@@ -1,0 +1,946 @@
+h1 small, h1 .small, h2 small, h2 .small, h3 small, h3 .small, h4 small, h4 .small, h5 small, h5 .small, h6 small, h6 .small, .h1 small, .h1 .small, .h2 small, .h2 .small, .h3 small, .h3 .small, .h4 small, .h4 .small, .h5 small, .h5 .small, .h6 small, .h6 .small {
+    font-weight: normal;
+    line-height: 1;
+    color: black;
+    font-family: "CeraPro-Bold", "Lato", sans-serif !important;
+}
+
+.bs4 h2, .bs4 h3 {
+  letter-spacing: -.75px;
+  line-height: 1.5;
+}
+
+.pillar-content-inner h3, .pillar-content-inner p {
+    text-shadow: 0px 0px 8px #0e072a;
+}
+
+
+.honorsCol .pillar-content-inner h3, .honorsCol .pillar-content-inner p,
+.scholarshipsCol .pillar-content-inner h3, .scholarshipsCol .pillar-content-inner p,
+.perfArtsCol .pillar-content-inner h3, .perfArtsCol .pillar-content-inner p {
+    text-shadow: 0px 0px 8px #fff;
+    color: #211551;
+}
+
+#MainContent_C054_Col00 h2 {
+    color: #211551;
+}
+
+.plate-purple h1, .plate-purple h2, .plate-purple h3, .plate-purple h4, .plate-purple h5, .plate-purple h6, .plate-purple p {
+    color: white !important;
+}
+
+.text-regular {
+    font-family: "CeraPro-Regular","Lato",sans-serif;
+}
+
+#givingHome-pillarSection .giving-pillar-content .pillar-content-inner {
+    z-index: 100 !important;
+    position: relative;
+}
+#givingHome-pillarSection .giving-pillar-col {
+    padding: 15px 15px 0px 15px;
+    position: relative;
+}
+#givingHome-pillarSection .giving-pillar-content {
+    padding: 45px 65px;
+    width: 100%;
+    height: 100%;
+    background: #211551;
+    position: relative;
+}
+
+#givingHome-pillarSection .honorsCol .giving-pillar-content {
+    background: none;
+}
+#givingHome-pillarSection .giving-pillar-content * {
+    color: white;
+}
+#givingHome-pillarSection .honorsCol .giving-pillar-content * {
+    color: #211551;
+}
+#givingHome-pillarSection .honorsCol .giving-pillar-content .button {
+    color: white;
+}
+#givingHome-pillarSection .honorsCol .giving-pillar-content .button * {
+    color: white;
+}
+#givingHome-pillarSection .background-image-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    overflow: hidden;
+    z-index: 0;
+    opacity: 0.6;
+}
+.background-image-container .ratio_container {
+    height: 100%;
+    padding-bottom: 0;
+}
+/* #givingHome-pillarSection #westminsterFundCol .background-image-container .portrait img {
+width: auto !important;
+min-width: unset !important;
+height: 100%;
+}
+*/
+.giving-pillar-content * {
+    text-align: center;
+}
+.giving-pillar-content p {
+    font-size: 16px;
+}
+.giving-pillar-content h3 {
+    font-size: 40px;
+}
+.infoCol-show.button {
+    color: white;
+    background: #8252c7;
+    margin-top: 36px;
+    width: auto;
+    font-size: 14px;
+}
+.infoCol-show.button:hover {
+    color: white;
+    background: #221551;
+    margin-top: 36px;
+}
+.large-giving-pillar-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+}
+.negMarginImage {
+    background: none;
+    height: 0;
+    padding-bottom: 115%;
+    width: 100%;
+    margin-top: -9vw;
+    overflow: hidden;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.negMarginImage img {
+    height: 100%;
+    width: auto;
+    position: absolute;
+    z-index: 100;
+}
+.scholarshipsCol {
+    padding: 0px !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.pillar-content-inner {
+    max-width: 810px;
+}
+#westminsterFundCol h3 {
+    font-size: 3.6vw;
+}
+#westminsterFundCol p {
+    font-size: 20px;
+}
+#westminsterFundCol .infoCol-show.button {
+    font-size: 16px;
+    margin-top: 40px;
+}
+@media only screen and (max-width: 1199px) {
+    .negMarginImage {
+        margin-top: 15px;
+    }
+    .p-0.pr-md-15 {
+        padding-right: 7.5px !important;
+    }
+    .scholarshipsCol {
+        padding: 45px !important;
+    }
+    .accessSuccessCol {
+        padding-right: 7.5px !important;
+        min-height: 50vh;
+    }
+    .honorsCol {
+        padding-left: 7.5px !important;
+        min-height: 50vh;
+    }
+    #westminsterFundCol h3 {
+        font-size: 5vw;
+    }
+    #westminsterFundCol p {
+        font-size: 20px;
+    }
+    #westminsterFundCol .infoCol-show.button {
+        font-size: 16px;
+        margin-top: 40px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .negMarginImage {
+        margin-top: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+    .p-0.pr-md-15 {
+        padding-right: 0px !important;
+    }
+    .accessSuccessCol {
+        padding-right: 15px !important;
+    }
+    .honorsCol {
+        padding-left: 15px !important;
+    }
+    .giving-pillar-content {
+        min-height: 50vw;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .giving-pillar-content, .large-giving-pillar-content {
+        min-height: 60vw;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .scholarshipsCol {
+        min-height: 0;
+        height: auto;
+    }
+    .scholarshipsCol .giving-pillar-content {
+        min-height: 0;
+        height: auto;
+    }
+    .negMarginImage {
+        padding-bottom: 50%;
+    }
+}
+@media only screen and (max-width: 767px) {
+    #westminsterFundCol .infoCol-show.button {
+        font-size: 14px;
+        margin-top: 40px;
+    }
+    #westminsterFundCol p {
+        font-size: 16px;
+    }
+    .giving-pillar-content p {
+        font-size: 16px;
+    }
+    #westminsterFundCol h3, .giving-pillar-content h3 {
+        font-size: 32px;
+        margin-bottom: 32px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .giving-pillar-content * {
+        text-align: left;
+    }
+    .giving-pillar-content p {
+        font-size: 14px;
+    }
+    .giving-pillar-content h3 {
+        text-align: center;
+    }
+    .negMarginImage {
+        padding-bottom: 100%;
+    }
+    .infoCol-show.button {
+        width: 100%;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 480px) {
+    #givingHome-pillarSection .giving-pillar-content, .scholarshipsCol {
+        padding: 28px !important;
+    }
+    #westminsterFundCol, .accessSuccessCol, .honorsCol, .scholarshipsCol .pillar-content-inner {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    #westminsterFundCol .infoCol-show.button {
+        font-size: 14px;
+        margin-top: 40px;
+    }
+    #westminsterFundCol p {
+        font-size: 14px;
+    }
+    .giving-pillar-content p {
+        font-size: 14px;
+    }
+    #westminsterFundCol h3, .giving-pillar-content h3 {
+        font-size: 28px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    #westminsterFundCol .infoCol-show.button {
+        font-size: 14px;
+        margin-top: 40px;
+    }
+    #westminsterFundCol p {
+        font-size: 14px;
+    }
+    .giving-pillar-content p {
+        font-size: 14px;
+    }
+    #westminsterFundCol h3, .giving-pillar-content h3 {
+        font-size: 24px;
+    }
+    .xs-sr-only {
+        position: absolute;
+        height: 1px;
+        width: 1px;
+        overflow: hidden !important;
+    }
+}
+#givingHome-pillarSection .giving-pillar-content .pillar-content-inner {
+    z-index: 100 !important;
+    position: relative;
+}
+#givingHome-pillarSection .giving-pillar-col {
+    padding: 15px 15px 0px 15px;
+    position: relative;
+}
+#givingHome-pillarSection .giving-pillar-content {
+    padding: 45px 65px;
+    width: 100%;
+    height: 100%;
+    background: #211551;
+    position: relative;
+}
+#givingHome-pillarSection .honorsCol .giving-pillar-content {
+    background: none;
+}
+#givingHome-pillarSection .giving-pillar-content * {
+    color: white;
+}
+#givingHome-pillarSection .honorsCol .giving-pillar-content * {
+    color: #211551;
+}
+#givingHome-pillarSection .honorsCol .giving-pillar-content .button {
+    color: white;
+}
+#givingHome-pillarSection .honorsCol .giving-pillar-content .button * {
+    color: white;
+}
+#givingHome-pillarSection .background-image-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    overflow: hidden;
+    z-index: 0;
+    opacity: 0.55;
+}
+.background-image-container .ratio_container {
+    height: 100%;
+    padding-bottom: 0;
+}
+/* #givingHome-pillarSection #westminsterFundCol .background-image-container .portrait img {
+width: auto !important;
+min-width: unset !important;
+height: 100%;
+}
+*/
+.giving-pillar-content * {
+    text-align: center;
+}
+.giving-pillar-content p {
+    font-size: 16px;
+}
+.giving-pillar-content h3 {
+    font-size: 40px;
+}
+.infoCol-show.button {
+    color: white;
+    background: #8252c7;
+    margin-top: 36px;
+    width: auto;
+    font-size: 14px;
+}
+.infoCol-show.button:hover {
+    color: white;
+    background: #221551;
+    margin-top: 36px;
+}
+.large-giving-pillar-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+}
+.negMarginImage {
+    background: none;
+    height: 0;
+    padding-bottom: 110%;
+    width: 100%;
+    margin-top: -9vw;
+    overflow: hidden;
+    position: relative;
+}
+.negMarginImage img {
+    height: auto;
+    width: 100%;
+    position: absolute;
+    z-index: 100;
+}
+.scholarshipsCol {
+    padding: 0px !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.pillar-content-inner {
+    max-width: 810px;
+}
+#westminsterFundCol h3 {
+    font-size: 3.6vw;
+}
+#westminsterFundCol p {
+    font-size: 20px;
+}
+#westminsterFundCol .infoCol-show.button {
+    font-size: 16px;
+    margin-top: 40px;
+}
+@media only screen and (max-width: 1199px) {
+    .negMarginImage {
+        margin-top: 15px;
+    }
+    .p-0.pr-md-15 {
+        padding-right: 7.5px !important;
+    }
+    .scholarshipsCol {
+        padding: 45px !important;
+    }
+    .accessSuccessCol {
+        padding-right: 7.5px !important;
+        min-height: 50vh;
+    }
+    .honorsCol {
+        padding-left: 7.5px !important;
+        min-height: 50vh;
+    }
+    #westminsterFundCol h3 {
+        font-size: 5vw;
+    }
+    #westminsterFundCol p {
+        font-size: 20px;
+    }
+    #westminsterFundCol .infoCol-show.button {
+        font-size: 16px;
+        margin-top: 40px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .negMarginImage {
+        margin-top: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+    .p-0.pr-md-15 {
+        padding-right: 0px !important;
+    }
+    .accessSuccessCol {
+        padding-right: 15px !important;
+    }
+    .honorsCol {
+        padding-left: 15px !important;
+    }
+    .giving-pillar-content {
+        min-height: 50vw;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .giving-pillar-content, .large-giving-pillar-content {
+        min-height: 60vw;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .scholarshipsCol {
+        min-height: 0;
+        height: auto;
+    }
+    .scholarshipsCol .giving-pillar-content {
+        min-height: 0;
+        height: auto;
+    }
+    .negMarginImage {
+        padding-bottom: 50%;
+    }
+}
+@media only screen and (max-width: 767px) {
+    #westminsterFundCol .infoCol-show.button {
+        font-size: 14px;
+        margin-top: 40px;
+    }
+    #westminsterFundCol p {
+        font-size: 16px;
+    }
+    .giving-pillar-content p {
+        font-size: 16px;
+    }
+    #westminsterFundCol h3, .giving-pillar-content h3 {
+        font-size: 32px;
+        margin-bottom: 32px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .giving-pillar-content * {
+        text-align: left;
+    }
+    .giving-pillar-content p {
+        font-size: 14px;
+    }
+    .giving-pillar-content h3 {
+        text-align: center;
+    }
+    .negMarginImage {
+        padding-bottom: 100%;
+    }
+    .infoCol-show.button {
+        width: 100%;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 480px) {
+    #givingHome-pillarSection .giving-pillar-content, .scholarshipsCol {
+        padding: 28px !important;
+    }
+    #westminsterFundCol, .accessSuccessCol, .honorsCol, .scholarshipsCol .pillar-content-inner {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    #westminsterFundCol .infoCol-show.button {
+        font-size: 14px;
+        margin-top: 40px;
+    }
+    #westminsterFundCol p {
+        font-size: 14px;
+    }
+    .giving-pillar-content p {
+        font-size: 14px;
+    }
+    #westminsterFundCol h3, .giving-pillar-content h3 {
+        font-size: 28px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    #westminsterFundCol .infoCol-show.button {
+        font-size: 14px;
+        margin-top: 40px;
+    }
+    #westminsterFundCol p {
+        font-size: 14px;
+    }
+    .giving-pillar-content p {
+        font-size: 14px;
+    }
+    #westminsterFundCol h3, .giving-pillar-content h3 {
+        font-size: 24px;
+    }
+    .xs-sr-only {
+        position: absolute;
+        height: 1px;
+        width: 1px;
+        overflow: hidden !important;
+    }
+}
+#givingHome-pillarSection .giving-pillar-content .pillar-content-inner {
+    z-index: 100 !important;
+    position: relative;
+}
+#givingHome-pillarSection .giving-pillar-col {
+    padding: 15px 15px 0px 15px;
+    position: relative;
+}
+#givingHome-pillarSection .giving-pillar-content {
+    padding: 45px 65px;
+    width: 100%;
+    height: 100%;
+    background: #211551;
+    position: relative;
+}
+#givingHome-pillarSection .honorsCol .giving-pillar-content {
+    background: none;
+}
+#givingHome-pillarSection .giving-pillar-content * {
+    color: white;
+}
+#givingHome-pillarSection .honorsCol .giving-pillar-content * {
+    color: #211551;
+}
+#givingHome-pillarSection .honorsCol .giving-pillar-content .button {
+    color: white;
+}
+#givingHome-pillarSection .honorsCol .giving-pillar-content .button * {
+    color: white;
+}
+#givingHome-pillarSection .background-image-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    overflow: hidden;
+    z-index: 0;
+    opacity: 0.55;
+}
+.background-image-container .ratio_container {
+    height: 100%;
+    padding-bottom: 0;
+}
+/* #givingHome-pillarSection #westminsterFundCol .background-image-container .portrait img {
+width: auto !important;
+min-width: unset !important;
+height: 100%;
+}
+*/
+.giving-pillar-content * {
+    text-align: center;
+}
+.giving-pillar-content p {
+    font-size: 16px;
+}
+.giving-pillar-content h3 {
+    font-size: 40px;
+}
+.infoCol-show.button {
+    color: white;
+    background: #8252c7;
+    margin-top: 36px;
+    width: auto;
+    font-size: 14px;
+}
+.infoCol-show.button:hover {
+    color: white;
+    background: #221551;
+    margin-top: 36px;
+}
+.large-giving-pillar-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+}
+.negMarginImage {
+    background: none;
+    height: 0;
+    padding-bottom: 110%;
+    width: 100%;
+    margin-top: -9vw;
+    overflow: hidden;
+    position: relative;
+}
+.negMarginImage img {
+    height: auto;
+    width: 100%;
+    position: absolute;
+    z-index: 100;
+}
+.scholarshipsCol {
+    padding: 0px !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.pillar-content-inner {
+    max-width: 810px;
+}
+#westminsterFundCol h3 {
+    font-size: 3.6vw;
+}
+#westminsterFundCol p {
+    font-size: 20px;
+}
+#westminsterFundCol .infoCol-show.button {
+    font-size: 16px;
+    margin-top: 40px;
+}
+@media only screen and (max-width: 1199px) {
+    .negMarginImage {
+        margin-top: 15px;
+    }
+    .p-0.pr-md-15 {
+        padding-right: 7.5px !important;
+    }
+    .scholarshipsCol {
+        padding: 45px !important;
+    }
+    .accessSuccessCol {
+        padding-right: 7.5px !important;
+        min-height: 50vh;
+    }
+    .honorsCol {
+        padding-left: 7.5px !important;
+        min-height: 50vh;
+    }
+    #westminsterFundCol h3 {
+        font-size: 5vw;
+    }
+    #westminsterFundCol p {
+        font-size: 20px;
+    }
+    #westminsterFundCol .infoCol-show.button {
+        font-size: 16px;
+        margin-top: 40px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .negMarginImage {
+        margin-top: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+    .p-0.pr-md-15 {
+        padding-right: 0px !important;
+    }
+    .accessSuccessCol {
+        padding-right: 15px !important;
+    }
+    .honorsCol {
+        padding-left: 15px !important;
+    }
+    .giving-pillar-content {
+        min-height: 50vw;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .giving-pillar-content, .large-giving-pillar-content {
+        min-height: 60vw;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .scholarshipsCol {
+        min-height: 0;
+        height: auto;
+    }
+    .scholarshipsCol .giving-pillar-content {
+        min-height: 0;
+        height: auto;
+    }
+    .negMarginImage {
+        padding-bottom: 50%;
+    }
+}
+@media only screen and (max-width: 767px) {
+    #westminsterFundCol .infoCol-show.button {
+        font-size: 14px;
+        margin-top: 40px;
+    }
+    #westminsterFundCol p {
+        font-size: 16px;
+    }
+    .giving-pillar-content p {
+        font-size: 16px;
+    }
+    #westminsterFundCol h3, .giving-pillar-content h3 {
+        font-size: 32px;
+        margin-bottom: 32px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .giving-pillar-content * {
+        text-align: left;
+    }
+    .giving-pillar-content p {
+        font-size: 14px;
+    }
+    .giving-pillar-content h3 {
+        text-align: center;
+    }
+    .negMarginImage {
+        padding-bottom: 100%;
+    }
+    .infoCol-show.button {
+        width: 100%;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 480px) {
+    #givingHome-pillarSection .giving-pillar-content, .scholarshipsCol {
+        padding: 28px !important;
+    }
+    #westminsterFundCol, .accessSuccessCol, .honorsCol, .scholarshipsCol .pillar-content-inner {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    #westminsterFundCol .infoCol-show.button {
+        font-size: 14px;
+        margin-top: 40px;
+    }
+    #westminsterFundCol p {
+        font-size: 14px;
+    }
+    .giving-pillar-content p {
+        font-size: 14px;
+    }
+    #westminsterFundCol h3, .giving-pillar-content h3 {
+        font-size: 28px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    #westminsterFundCol .infoCol-show.button {
+        font-size: 14px;
+        margin-top: 40px;
+    }
+    #westminsterFundCol p {
+        font-size: 14px;
+    }
+    .giving-pillar-content p {
+        font-size: 14px;
+    }
+    #westminsterFundCol h3, .giving-pillar-content h3 {
+        font-size: 24px;
+    }
+    .xs-sr-only {
+        position: absolute;
+        height: 1px;
+        width: 1px;
+        overflow: hidden !important;
+    }
+}
+h1 small, h1 .small {
+    font-weight: normal;
+    line-height: 1;
+    color: black;
+    font-family: "CeraPro-Bold", "Lato", sans-serif !important;
+}
+h2 small, h2 .small {
+    font-weight: normal;
+    line-height: 1;
+    color: black;
+    font-family: "CeraPro-Bold", "Lato", sans-serif !important;
+}
+h3 small, h3 .small {
+    font-weight: normal;
+    line-height: 1;
+    color: black;
+    font-family: "CeraPro-Bold", "Lato", sans-serif !important;
+}
+h4 small, h4 .small {
+    font-weight: normal;
+    line-height: 1;
+    color: black;
+    font-family: "CeraPro-Bold", "Lato", sans-serif !important;
+}
+h5 small, h5 .small {
+    font-weight: normal;
+    line-height: 1;
+    color: black;
+    font-family: "CeraPro-Bold", "Lato", sans-serif !important;
+}
+h6 small, h6 .small {
+    font-weight: normal;
+    line-height: 1;
+    color: black;
+    font-family: "CeraPro-Bold", "Lato", sans-serif !important;
+}
+.h1 small, .h1 .small {
+    font-weight: normal;
+    line-height: 1;
+    color: black;
+    font-family: "CeraPro-Bold", "Lato", sans-serif !important;
+}
+.h2 small, .h2 .small {
+    font-weight: normal;
+    line-height: 1;
+    color: black;
+    font-family: "CeraPro-Bold", "Lato", sans-serif !important;
+}
+.h3 small, .h3 .small {
+    font-weight: normal;
+    line-height: 1;
+    color: black;
+    font-family: "CeraPro-Bold", "Lato", sans-serif !important;
+}
+.h4 small, .h4 .small {
+    font-weight: normal;
+    line-height: 1;
+    color: black;
+    font-family: "CeraPro-Bold", "Lato", sans-serif !important;
+}
+.h5 small, .h5 .small {
+    font-weight: normal;
+    line-height: 1;
+    color: black;
+    font-family: "CeraPro-Bold", "Lato", sans-serif !important;
+}
+.h6 small, .h6 .small {
+    font-weight: normal;
+    line-height: 1;
+    color: black;
+    font-family: "CeraPro-Bold", "Lato", sans-serif !important;
+}
+
+@media only screen and (min-width: 992px) {
+    .feature__card--left-at-medium {
+        left: 3%;
+    }
+}

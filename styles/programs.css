@@ -1,0 +1,317 @@
+.text-muted {
+    color: #666;
+}
+
+a:visited {
+    color: #8252c7;
+}
+
+/*a:hover, a:focus, a:active {*/
+/*    color: #ba9fe0;*/
+/*}*/
+
+.card-block > h3 {
+    font-size: 2.4rem;
+}
+
+#content div div h2.text-center.margin-top {
+    margin-top: 36px;
+    margin-bottom: 0;
+    padding: 15px;
+    line-height: 1.35;
+}
+
+#programSearchForm {
+    margin-top: 45px;
+    margin-bottom: 45px;
+    max-width: 968px;
+    margin: 45px auto;
+}
+
+#programSearchForm hr {
+    margin-top: 45px;
+}
+
+#programSearchForm #programSearch {
+    height: 48px;
+    display: block;
+    width: 100%;
+    border: 1px solid #f3f4f4;
+    font-size: 16px !important;
+    margin-bottom: 0px !important;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    padding-right: 72px;
+    background: #f3f4f4;
+}
+
+#programSearchForm #programSearch::-webkit-input-placeholder {
+    color: #505050;
+}
+
+#programSearchForm #programSearch:-ms-input-placeholder {
+    color: #505050;
+}
+
+#programSearchForm #programSearch::-ms-input-placeholder {
+    color: #505050;
+}
+
+#programSearchForm #programSearch::placeholder {
+    color: #505050;
+}
+
+#programSearchForm .form-group.form-inline.text-center.ng-scope, #programSearchForm .button.inline-search--button, #programSearchForm .button.inline-clear--button {
+    height: 48px;
+    line-height: 1;
+    width: auto;
+    display: block;
+}
+
+#programSearchForm .form-group.form-inline.text-center.ng-scope .inline-search {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    padding: 0px 15px;
+    position: relative;
+    max-width: 768px;
+    margin: 0px auto;
+}
+
+#programSearchForm .button.inline-clear--button {
+    white-space: nowrap;
+    display: none;
+}
+
+#programSearchForm .button.inline-search--button, #programSearchForm .button.inline-clear--button {
+    width: 52px;
+    text-align: center;
+    color: #fff !important;
+}
+
+#name-clear-btn {
+    width: 30rem;
+    margin: 64px auto;
+    display: block;
+    background: none;
+    color: #211551;
+    border: 2px solid #211551;
+    height: 48px;
+    line-height: 44px;
+    padding: 0em 1em 0em 1em;
+}
+
+#name-clear-btn:hover {
+    color: #fff;
+    background: #211551;
+    border: 2px solid #211551;
+}
+
+#results {
+    margin-bottom: 45px;
+    font-family: "CeraPRO-Medium", "Lato", sans-serif;
+}
+
+#results span.text-muted {
+    color: #000;
+}
+
+#programSearchForm .inline-list.ng-scope li button {
+    border: 2px solid #f3f4f4;
+    background: #f3f4f4;
+    color: #211551;
+    -webkit-transition: .15s all;
+    -o-transition: .15s all;
+    transition: .15s all;
+}
+
+#programSearchForm .inline-list.ng-scope li, #programSearchForm .inline-list.ng-scope li button {
+    -webkit-transition: .15s all !important;
+    -o-transition: .15s all !important;
+    transition: .15s all !important;
+;
+    margin-bottom: 8px;
+}
+
+#programSearchForm button:focus,
+#programSearchForm button:active,
+#programSearchForm .button:focus,
+#programSearchForm .button:active,
+#programSearchForm input:focus,
+#programSearchForm input:active,
+#programSearchForm .inline-list.ng-scope li button:focus,
+#programSearchForm .inline-list.ng-scope li button:active {
+    -webkit-box-shadow: 0 0 0 .2rem rgba(130, 82, 199, .65);
+    box-shadow: 0 0 0 .2rem rgba(130, 82, 199, .65);
+}
+
+#programSearchForm input:focus,
+#programSearchForm input:active {
+    color: black;
+}
+
+#programSearchForm input:focus~.button.inline-search--button,
+#programSearchForm input:active~.button.inline-search--button,
+#programSearchForm input:focus~.button.inline-clear--button,
+#programSearchForm input:active~.button.inline-clear--button,
+#programSearchForm .button.inline-search--button:hover,
+#programSearchForm .button.inline-search--button:focus,
+#programSearchForm .button.inline-search--button:active,
+#programSearchForm .button.inline-clear--button:hover,
+#programSearchForm .button.inline-clear--button:focus,
+#programSearchForm .button.inline-clear--button:active {
+    color: #fff;
+}
+
+#programSearchForm .inline-list.ng-scope li button:hover, #programSearchForm .inline-list.ng-scope li button:hover, #programSearchForm .inline-list.ng-scope li button:hover {
+    border-color: #e7e7e8 !important;
+    background: #e7e7e8 !important;
+}
+
+label.button.button-grey.button-small.programs_filter-all.isSelected {
+    background: #211551 !important;
+    color: #fff !important;
+}
+
+label.button.button-grey.button-small.programs_filter-all input .jplist-selected{
+    background: #211551 !important;
+    color: #fff !important;
+}
+
+#programSearchForm .inline-list.ng-scope li button {
+    padding: 10px 15px;
+}
+
+@media only screen and (max-width: 767px) {
+    #programSearchForm .inline-list.ng-scope {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        padding: 15px;
+    }
+
+    #programSearchForm .inline-list.ng-scope li {
+        -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        margin: 0px;
+        padding: 4px;
+    }
+
+    #programSearchForm .inline-list.ng-scope li button {
+        width: 100%;
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    #programSearchForm .inline-list.ng-scope li button {
+        font-size: 14px !important;
+        letter-spacing: 0.5px;
+        padding: 10px 12px;
+    }
+
+    #programSearchForm .inline-list.ng-scope li {
+        min-width: 45%;
+    }
+}
+
+@media only screen and (max-width: 359px) {
+    #programSearchForm .inline-list.ng-scope li button {
+        font-size: 13px !important;
+        letter-spacing: 0.25px;
+        padding: 8px 12px;
+    }
+}
+
+#programSearchForm p {
+    margin: 32px auto 32px 0px !important;
+}
+
+#programSearchForm * {
+    -webkit-transition: .15s all !important;
+    -o-transition: .15s all !important;
+    transition: .15s all !important;
+}
+
+.inline-search #programSearch {
+    margin-bottom: 0px !important;
+    position: relative;
+}
+
+.inline-search #programSearch~a.button {
+    position: relative;
+    margin: 0;
+    right: 15px;
+    top: 0;
+    bottom: 0;
+    background: #211551;
+}
+
+#programSearchForm .fas {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    line-height: 48px;
+}
+
+.form-group.form-inline.text-center.ng-scope {
+    margin-bottom: 32px !important;
+}
+
+/*
+.programs_filter-avia {
+  display: none;
+}
+*/
+
+#programSearchForm .button.inline-clear--button.active {
+    display: block;
+    right: 66px;
+    background: none;
+    color: #575d62 !important;
+}
+
+@media only screen and (max-width: 992px) {
+    .large-margin-top {
+        margin-top: 4rem;
+    }
+}
+
+.programs_filter-avia {
+    display: none !important;
+}
+
+.programs_filter-mont {
+    display: none !important;
+}
+
+
+.interest-dropdown-button {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: -35px;
+}
+
+#programSearchForm .interest-dropdown-button span.fas.fa-chevron-down {
+    position: relative;
+    width: auto;
+    height: auto;
+    min-height: unset;
+    min-width: unset;
+    line-height: unset;
+    padding-left: 15px;
+}
+
+label.button.button-grey.button-small.programs_filter-all input{
+    display: none;
+}

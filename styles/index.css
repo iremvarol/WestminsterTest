@@ -1,0 +1,752 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    padding-top: 90px;
+}
+
+.clickToPause-container {
+    z-index: 200;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.clickToPause-container .fa-play {
+    display: none;
+}
+
+.clickToPause {
+    opacity: 0;
+    pointer-events: none;
+    margin: 0;
+    padding: 16px 20px;
+}
+.clickToPause:focus {
+    opacity: 1;
+    pointer-events: all;
+}
+
+#top-banner-with-video {
+    width: 100%;
+    position: relative;
+}
+#top_banner-media {
+    padding-bottom: 31.25%;
+}
+
+.top-banner__text-content * {
+    color: white;
+    width: 100%;
+    text-shadow: none;
+    text-shadow: 0px 0px 12px rgba(33,21,81, .35);
+}
+
+#top-banner-with-video h1, #top-banner-with-video h2 {
+    margin: 0;
+}
+
+#top-banner-with-video h1 {
+    font-size: 6rem;
+}
+
+#top-banner-with-video h2 {
+    font-size: 2.4rem;
+}
+
+.top-banner__text-content {
+    background: rgba(33,21,81, .3);
+    left: 0%;
+    position: absolute;
+    text-align: center;
+    top: 0%;
+    padding: 15px;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    max-height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.second-test .top-banner__text-content {
+    background: none;
+}
+
+.banner-media-container {
+    background: url('https://res.cloudinary.com/westminster-college/image/upload/v1548717492/content-library/All%20Pages/Content/Videos/converse-hall-bg-captures/converse-hall-twinkling--desktop-larger_Moment.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 1379px) {
+    .banner-media-container {
+        background: url('https://res.cloudinary.com/westminster-college/image/upload/v1548717492/content-library/All%20Pages/Content/Videos/converse-hall-bg-captures/converse-hall-twinkling--desktop_Moment.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #top_banner-media {
+        padding-bottom: 23.4375%;
+    }
+
+}
+
+@media only screen and (max-width: 991px) {
+    .banner-media-container {
+        background: url('/images/default-source/home-page-images/top-banner/converse-and-mountains--small.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #top-banner-with-video h1 {
+        font-size: 4.4rem;
+    }
+    #top-banner-with-video h2 {
+        font-size: 2rem;
+    }
+
+
+    #top_banner-media {
+        padding-bottom: 40%;
+    }
+
+    #top-banner-with-video video, #top-banner-with-video img {
+        width: auto;
+        height: 100%;
+        opacity: 0;
+        pointer-events: none;
+    }
+}
+
+@media only screen and (max-width: 639px) {
+    .banner-media-container {
+        background: url('/images/default-source/home-page-images/top-banner/converse-and-mountains--smaller-hi-dpi.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #top-banner-with-video h1 {
+        font-size: 3.2rem;
+    }
+    #top-banner-with-video h2 {
+        font-size: 1.4rem;
+    }
+
+    #top_banner-media {
+        padding-bottom: 62.65%;
+    }
+}
+
+#top_banner-media .banner-media {
+    width: 100%;
+}
+
+@media only screen and (max-width: 992px){
+    section .feature__card {
+        margin-top: -4rem;
+    }
+
+    .feature__caption {
+        bottom: 4.5rem;
+    }
+}
+
+#life_after-heading_text {
+    margin: 12px auto 48px auto;
+    float: none;
+    max-width: 60rem;
+}
+
+@media only screen and (max-width: 699px) {
+    #life_after-heading_text {
+        text-align: center !important;
+    }
+
+    .card-deck .card.card-double {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .feature__card--right-at-medium {
+        right: 25%;
+    }
+}
+
+#instafeed-row {
+  max-width: 100% !important;;
+}
+
+#instafeed-row .col-6.col-lg-3 {
+    padding: 7.5px;
+    max-width: 50% !important;
+}
+
+.variable-page-data {
+    display: none;
+}
+
+.sfPageEditor .variable-page-data {
+    display: unset;
+}
+
+.igPhotoLink .caption-link-wrapper {
+    opacity: 0;
+    -webkit-transition: .3s all;
+    -o-transition: .3s all;
+    transition: .3s all;
+    color: white;
+    background: rgba(33,21,81, .9);
+}
+
+.igPhotoLink:hover .caption-link-wrapper {
+    opacity: 1;
+}
+
+.caption-link-wrapper {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 32px;
+    background: #211551;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+}
+
+.igViewMore {
+    text-align: center;
+    margin: 0px;
+}
+
+.igCapLoadHere {
+    text-align: left;
+    height: 100px;
+    width: 100%;
+    white-space: pre-line;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.igPhotoLink {
+    height: 0px;
+    overflow: hidden;
+    display: block;
+    padding-bottom: 100%;
+    background: #211551;
+}
+
+.small.igViewMore.btn.btn-primary {
+    color: #211551;
+    background: white;
+    border-radius: 0px;
+    width: 100%;
+    border: 0px;
+    padding: 4px 16px 6px 16px;
+}
+.small.igViewMore.btn.btn-primary:active {
+    background: #8252c7;
+}
+
+/* Ratio Img CSS */
+
+.ratio_container {
+    height: 0px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%; }
+.ratio_container.sixteen-nine {
+    width: 100%;
+    padding-bottom: 56.25%; }
+.ratio_container.nine-sixteen {
+    width: 100%;
+    padding-bottom: 177.77778%; }
+.ratio_container.four-three {
+    width: 100%;
+    padding-bottom: 75%; }
+.ratio_container.three-four {
+    width: 100%;
+    padding-bottom: 133.3333%; }
+.ratio_container.one-one {
+    width: 100%;
+    padding-bottom: 100%; }
+.ratio_container.wm-banner {
+    width: 100%;
+    padding-bottom: 23.4375%; }
+
+.in_ratio_constraint {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: inherit;
+    overflow: hidden;
+    margin: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+.in_ratio_constraint.center {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+.in_ratio_constraint.center-left {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+.in_ratio_constraint.center-right {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+.in_ratio_constraint.center-top {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start; }
+.in_ratio_constraint.center-bottom {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end; }
+.in_ratio_constraint.top-left {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start; }
+.in_ratio_constraint.top-right {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start; }
+.in_ratio_constraint.bottom-left {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end; }
+.in_ratio_constraint.bottom-right {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end; }
+
+.in_ratio_constraint img, .in_ratio_constraint .ratio-media {
+    display: block; }
+
+.portrait img, .portrait .ratio-media {
+    min-width: 100%;
+    width: 100%;
+    height: auto; }
+
+.landscape img, .landscape .ratio-media {
+    min-height: 100%;
+    height: 100%;
+    width: auto;
+}
+
+/*business-research page*/
+.books-row img {
+    max-width: 240px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+
+
+}
+.books-row h4 {
+    padding-right: 15px;
+    max-width: 240px;
+}
+
+/*programs page*/
+
+.text-muted {
+  color: #666;
+}
+
+/*a:visited {*/
+/*    color: #8252c7;*/
+/*}*/
+
+/*a:hover, a:focus, a:active {*/
+/*    color: #ba9fe0;*/
+/*}*/
+
+
+#content div div h2.text-center.margin-top {
+    margin-top: 36px;
+    margin-bottom: 0;
+    padding: 15px;
+    line-height: 1.35;
+}
+#programSearchForm {
+    margin-top: 45px;
+    margin-bottom: 45px;
+    max-width: 968px;
+    margin: 45px auto;
+}
+
+
+#programSearchForm hr {
+    margin-top: 45px;
+}
+
+#programSearchForm #programSearch {
+    height: 48px;
+    display: block;
+    width: 100%;
+    border: 1px solid #f3f4f4;
+    font-size: 16px !important;
+    margin-bottom: 0px !important;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    padding-right: 72px;
+    background: #f3f4f4;
+}
+
+
+
+#programSearchForm #programSearch::-webkit-input-placeholder {
+    color: #505050;
+}
+
+
+
+#programSearchForm #programSearch:-ms-input-placeholder {
+    color: #505050;
+}
+
+
+
+#programSearchForm #programSearch::-ms-input-placeholder {
+    color: #505050;
+}
+
+
+
+#programSearchForm #programSearch::placeholder {
+    color: #505050;
+}
+
+#programSearchForm .form-group.form-inline.text-center.ng-scope, #programSearchForm .button.inline-search--button, #programSearchForm .button.inline-clear--button {
+    height: 48px;
+    line-height: 1;
+    width: auto;
+    display: block;
+}
+
+#programSearchForm .form-group.form-inline.text-center.ng-scope .inline-search {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    padding: 0px 15px;
+    position: relative;
+    max-width: 768px;
+    margin: 0px auto;
+}
+
+#programSearchForm .button.inline-clear--button {
+    white-space: nowrap;
+    display: none;
+}
+
+#programSearchForm .button.inline-search--button, #programSearchForm .button.inline-clear--button {
+    width:52px;
+    text-align: center;
+    color: #fff !important;
+}
+
+
+#programSearchStartOver {
+    width: 30rem;
+    margin: 64px auto;
+    display: block;
+    background: none;
+    color: #211551;
+    border: 2px solid #211551;
+    height: 48px;
+    line-height: 44px;
+    padding: 0em 1em 0em 1em;
+}
+
+
+#programSearchStartOver:hover {
+    color: #fff;
+    background: #211551;
+    border: 2px solid #211551;
+}
+
+
+#results {
+    margin-bottom: 45px;
+    font-family: "CeraPRO-Medium", "Lato", sans-serif;
+
+}
+
+#results span.text-muted {
+    color: #000;
+}
+
+#programSearchForm .inline-list.ng-scope li button {
+    border: 2px solid #f3f4f4;
+    background: #f3f4f4;
+    color: #211551;
+    -webkit-transition: .15s all;
+    -o-transition: .15s all;
+    transition: .15s all;
+}
+
+#programSearchForm .inline-list.ng-scope li, #programSearchForm .inline-list.ng-scope li button {
+    -webkit-transition: .15s all !important;
+    -o-transition: .15s all !important;
+    transition: .15s all !important;;
+    margin-bottom: 8px;
+}
+
+#programSearchForm button:focus,
+#programSearchForm button:active,
+#programSearchForm .button:focus,
+#programSearchForm .button:active,
+#programSearchForm input:focus,
+#programSearchForm input:active,
+#programSearchForm .inline-list.ng-scope li button:focus,
+#programSearchForm .inline-list.ng-scope li button:active  {
+    -webkit-box-shadow: 0 0 0 .2rem rgba(130,82,199,.65);
+    box-shadow: 0 0 0 .2rem rgba(130,82,199,.65);
+
+}
+
+
+#programSearchForm input:focus,
+#programSearchForm input:active {
+    color: black;
+}
+#programSearchForm input:focus ~ .button.inline-search--button,
+#programSearchForm input:active ~ .button.inline-search--button,
+#programSearchForm input:focus ~ .button.inline-clear--button,
+#programSearchForm input:active ~ .button.inline-clear--button,
+#programSearchForm .button.inline-search--button:hover,
+#programSearchForm .button.inline-search--button:focus,
+#programSearchForm .button.inline-search--button:active,
+#programSearchForm .button.inline-clear--button:hover,
+#programSearchForm .button.inline-clear--button:focus,
+#programSearchForm .button.inline-clear--button:active {
+    color: #fff;
+
+}
+
+
+
+
+#programSearchForm .inline-list.ng-scope li button:hover, #programSearchForm .inline-list.ng-scope li button:hover, #programSearchForm .inline-list.ng-scope li button:hover {
+    border-color: #e7e7e8 !important;
+    background: #e7e7e8 !important;
+
+}
+
+
+
+#programSearchForm .inline-list.ng-scope li button.active  {
+
+    background: #211551 !important;
+    color: #fff !important;
+}
+
+#programSearchForm .inline-list.ng-scope li button {
+    padding: 10px 15px;
+}
+
+@media only screen and (max-width: 767px) {
+    #programSearchForm .inline-list.ng-scope {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        padding: 15px;
+
+    }
+
+
+    #programSearchForm .inline-list.ng-scope li {
+        -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        margin: 0px;
+        padding: 4px;
+    }
+
+    #programSearchForm .inline-list.ng-scope li button {
+        width: 100%;
+        margin-bottom: 0;
+
+    }
+
+}
+@media only screen and (max-width: 479px) {
+    #programSearchForm .inline-list.ng-scope li button {
+        font-size: 14px !important;
+        letter-spacing: 0.5px;
+        padding: 10px 12px;
+    }
+
+    #programSearchForm .inline-list.ng-scope li {
+        min-width: 45%;
+    }
+
+}
+
+@media only screen and (max-width: 359px) {
+    #programSearchForm .inline-list.ng-scope li button {
+        font-size: 13px !important;
+        letter-spacing: 0.25px;
+        padding: 8px 12px;
+    }
+
+}
+
+#programSearchForm p {
+
+    margin: 32px auto 32px 0px !important;
+}
+
+#programSearchForm * {
+    -webkit-transition: .15s all !important;
+    -o-transition: .15s all !important;
+    transition: .15s all !important;
+}
+
+.inline-search #programSearch {
+    margin-bottom: 0px !important;
+    position: relative;
+}
+
+.inline-search #programSearch ~ a.button {
+    position: absolute;
+    margin: 0;
+    right: 15px;
+    top: 0;
+    bottom: 0;
+    background: #211551;
+}
+
+#programSearchForm .fas {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    line-height: 48px;
+}
+
+.form-group.form-inline.text-center.ng-scope {
+    margin-bottom: 32px !important;
+}
+
+
+.programs_filter-avia {
+    display: none;
+}
+
+
+#programSearchForm .button.inline-clear--button.active {
+    display: block;
+    right: 66px;
+    background: none;
+    color: #575d62 !important;
+}
+@media only screen and (max-width: 992px) {
+    .large-margin-top {
+        margin-top: 4rem;
+    }
+
+}
+.programs_filter-avia {
+    display: none !important;
+}
+
+.interest-dropdown-button {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: -35px;
+}
+
+
+#programSearchForm .interest-dropdown-button span.fas.fa-chevron-down{
+    position: relative;
+    width: auto;
+    height: auto;
+    min-height: unset;
+    min-width: unset;
+    line-height: unset;
+    padding-left: 15px;
+}
+
+a.big {
+    color: white;
+}
+
+ul.footer__list li.footer-list-item a {
+      color: white;
+}
+
+ul.footer__list li.footer__list-item a {
+    color: white;
+}
+
+.st0{fill:#645C86;stroke:#FFFFFF;stroke-width:0.5;stroke-linejoin:round;}
+.st1{enable-background:new ;}
+.st2{fill:#D5DDEC;}
+

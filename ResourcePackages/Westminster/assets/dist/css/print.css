@@ -1,0 +1,28 @@
+@page :left {
+    margin-left: 1in
+}
+
+@page :right {
+    margin-left: 1in
+}
+
+.nav-header {
+    display: none
+}
+
+.nav-header-strip {
+    display: none
+}
+
+.flexnav-nav {
+    display: none
+}
+
+img,
+svg {
+    max-width: 300px
+}
+
+.footer {
+    display: none
+}

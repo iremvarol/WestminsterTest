@@ -1,0 +1,50 @@
+.reviewArticles_give {
+    display: none; 
+   }
+   
+   .sfPageEditorWrp .reviewArticles_give {
+    display: block; 
+   }
+   
+   .blockquote-featured {
+     border-left: 0;
+     padding: 0 0 16px 0;
+     margin-bottom: 0;
+   }
+   .blockquote-featured p {
+     font-size: 20px;
+   /*   font-size: 2.3vw; */
+     font-family: 'CeraPRO-BoldItalic';
+   }
+   
+   .blockquote-featured footer {
+     font-size: 14px;
+     margin-top: 8px;
+     font-family: 'CeraPRO-Bold';
+   }
+   
+   @media only screen and (min-width: 992px){
+     .blockquote-featured p {
+               font-size: 22px;
+             }
+     
+     .blockquote-featured footer {
+         font-size: 16px;
+         margin-top: 8px;
+         font-family: 'CeraPRO-Bold';
+       }
+   }
+
+   a.big {
+    color: white;
+}
+
+ul.footer__list li.footer-list-item a {
+      color: white;
+}
+
+ul.footer__list li.footer__list-item a {
+    color: white;
+}
+
+   
