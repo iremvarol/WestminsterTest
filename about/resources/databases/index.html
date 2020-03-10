@@ -34,6 +34,7 @@
    <script src="../../../scripts/bootstrap.min.js"></script>
    <script src="../../../scripts/functions.min.js"></script>
    <script src="../../../scripts/searchBox.js"></script>
+   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
 
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
@@ -41,10 +42,6 @@
    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" media="all" rel="stylesheet"
      type="text/css" />
 
-
-   <link
-     href="../../../Telerik.Web.UI.WebResource3bd5.css?d=XZDSnLKNXPEcfcgYWdBBanoTX1t2xhVys67gdOpj7TthjvP2UNaEDoQSazHC941zVEGbbCBzPSIdLBXb9gOJVk4J7PJ0cKlfu9QB-nRsS8PeTDbW_i_n4x0v0HRWFtBwenQTgGWuJOeVnXWtw6dEZA2&amp;t=636903570691717409&amp;compress=0&amp;_TSM_CombinedScripts_=%3b%3bTelerik.Sitefinity.Resources%2c+Version%3d9.1.6184.0%2c+Culture%3dneutral%2c+PublicKeyToken%3db28c218413bdf563%3aen%3a5151c6a4-1f6e-4bd0-836f-33c6174cfbb0%3a7a90d6a"
-     type="text/css" rel="stylesheet" />
  </head>
 
  <body>
@@ -3838,14 +3835,10 @@
                        </div>
 
                        <ul class="list-unstyled">
-                         <!-- ngRepeat: librarydatabase in vm.librarydatabases | orderBy : 'Title' | librarydatabasesFilter:vm.categoryFilter | filter:vm.search as filtered track by $index -->
-                         <div data-jplist-group="data-group-1" title="Tap to expand or collapse" class="accordion-item"
-                           ng-class="{'is-open': librarydatabase.isDetailVisible}">
+                         <div data-jplist-group="data-group-1" title="Tap to expand or collapse" class="accordion-item">
                            <div data-jplist-item>
                              <div class="busi search-bar programs_filter-acco ">
-                               <li
-                                 ng-repeat="librarydatabase in vm.librarydatabases | orderBy : 'Title' | librarydatabasesFilter:vm.categoryFilter | filter:vm.search as filtered track by $index"
-                                 class="ng-scope"></li>
+                               <li>
                                <div role="tab" class="accordion-toggle" ng-click="vm.toggleRow(librarydatabase)">
                                  <span class="chevron"></span>
                                  <div class="accordion-item-title no-select">
@@ -3857,31 +3850,26 @@
                                </div>
                                <div role="tabpanel" class="accordion-item-body">
                                  <div class="accordion-item-content">
-                                   <!-- ngIf: librarydatabase.Description -->
-                                   <div ng-if="librarydatabase.Description" ng-bind-html="librarydatabase.Description"
-                                     class="ng-binding ng-scope">
+                                   <div>
                                      <p>ABI/INFORM Collection features thousands of full-text journals, dissertations,
                                        working papers, key business and economics periodicals such as The Economist and
                                        Sloan Management Review, country-and industry-focused reports, and major news
                                        sources like the Wall Street Journal. Its international coverage gives
                                        researchers a complete picture of companies and business trends around the world.
                                      </p>
-                                   </div><!-- end ngIf: librarydatabase.Description -->
+                                   </div>
                                  </div>
                                </div>
                                </li>
                              </div>
                            </div>
                          </div>
-                         <!-- end ngRepeat: librarydatabase in vm.librarydatabases | orderBy : 'Title' | librarydatabasesFilter:vm.categoryFilter | filter:vm.search as filtered track by $index -->
-                         <li
-                           ng-repeat="librarydatabase in vm.librarydatabases | orderBy : 'Title' | librarydatabasesFilter:vm.categoryFilter | filter:vm.search as filtered track by $index"
-                           class="ng-scope">
+                         <li>
                            <div data-jplist-group="data-group-1" title="Tap to expand or collapse"
-                             class="accordion-item" ng-class="{'is-open': librarydatabase.isDetailVisible}">
+                             class="accordion-item">
                              <div data-jplist-item>
                                <div class="multi health elec search-bar programs_filter-acco ">
-                                 <div role="tab" class="accordion-toggle" ng-click="vm.toggleRow(librarydatabase)">
+                                 <div role="tab" class="accordion-toggle">
                                    <span class="chevron"></span>
                                    <div class="accordion-item-title no-select">
                                      <h4><a
@@ -3892,26 +3880,20 @@
                                  </div>
                                  <div role="tabpanel" class="accordion-item-body">
                                    <div class="accordion-item-content">
-                                     <!-- ngIf: librarydatabase.Description -->
-                                     <div ng-if="librarydatabase.Description" ng-bind-html="librarydatabase.Description"
-                                       class="ng-binding ng-scope">Academic OneFile provides articles from scholarly
+                                     <div>Academic OneFile provides articles from scholarly
                                        journals and other authoritative sources across a broad range of topics.</div>
-                                     <!-- end ngIf: librarydatabase.Description -->
                                    </div>
                                  </div>
                                </div>
                              </div>
                            </div>
                          </li>
-                         <!-- end ngRepeat: librarydatabase in vm.librarydatabases | orderBy : 'Title' | librarydatabasesFilter:vm.categoryFilter | filter:vm.search as filtered track by $index -->
-                         <li
-                           ng-repeat="librarydatabase in vm.librarydatabases | orderBy : 'Title' | librarydatabasesFilter:vm.categoryFilter | filter:vm.search as filtered track by $index"
-                           class="ng-scope">
+                         <li>
                            <div data-jplist-group="data-group-1" title="Tap to expand or collapse"
-                             class="accordion-item" ng-class="{'is-open': librarydatabase.isDetailVisible}">
+                             class="accordion-item">
                              <div data-jplist-item>
                                <div class="sci social search-bar programs_filter-acco ">
-                                 <div role="tab" class="accordion-toggle" ng-click="vm.toggleRow(librarydatabase)">
+                                 <div role="tab" class="accordion-toggle">
                                    <span class="chevron"></span>
                                    <div class="accordion-item-title no-select">
                                      <h4><a
@@ -3922,16 +3904,15 @@
                                  </div>
                                  <div role="tabpanel" class="accordion-item-body">
                                    <div class="accordion-item-content">
-                                     <!-- ngIf: librarydatabase.Description -->
-                                     <div ng-if="librarydatabase.Description" ng-bind-html="librarydatabase.Description"
-                                       class="ng-binding ng-scope">
+
+                                    <div class="ng-binding ng-scope">
                                        <p>Academic Search Ultimate is an interdisciplinary database. It contains
                                          academic and popular sources. &nbsp;Academic Search Ultimate provides full text
                                          and indexing for academic, social sciences, humanities, general science,
                                          education, and multi-cultural journals.<br>
                                          <br>
                                          Academic Search Ultimate replaces Academic Search Premier</p>
-                                     </div><!-- end ngIf: librarydatabase.Description -->
+                                     </div>
                                    </div>
                                  </div>
                                </div>
@@ -7332,7 +7313,6 @@
                              </div>
                            </div>
                          </li>
-                         <!-- end ngRepeat: librarydatabase in vm.librarydatabases | orderBy : 'Title' | librarydatabasesFilter:vm.categoryFilter | filter:vm.search as filtered track by $index -->
                          <li
                            ng-repeat="librarydatabase in vm.librarydatabases | orderBy : 'Title' | librarydatabasesFilter:vm.categoryFilter | filter:vm.search as filtered track by $index"
                            class="ng-scope">
@@ -7361,7 +7341,6 @@
                              </div>
                            </div>
                          </li>
-                         <!-- end ngRepeat: librarydatabase in vm.librarydatabases | orderBy : 'Title' | librarydatabasesFilter:vm.categoryFilter | filter:vm.search as filtered track by $index -->
                          <li
                            ng-repeat="librarydatabase in vm.librarydatabases | orderBy : 'Title' | librarydatabasesFilter:vm.categoryFilter | filter:vm.search as filtered track by $index"
                            class="ng-scope">
@@ -7388,7 +7367,6 @@
                              </div>
                            </div>
                          </li>
-                         <!-- end ngRepeat: librarydatabase in vm.librarydatabases | orderBy : 'Title' | librarydatabasesFilter:vm.categoryFilter | filter:vm.search as filtered track by $index -->
                          <li
                            ng-repeat="librarydatabase in vm.librarydatabases | orderBy : 'Title' | librarydatabasesFilter:vm.categoryFilter | filter:vm.search as filtered track by $index"
                            class="ng-scope">
@@ -7413,7 +7391,6 @@
                              </div>
                            </div>
                          </li>
-                         <!-- end ngRepeat: librarydatabase in vm.librarydatabases | orderBy : 'Title' | librarydatabasesFilter:vm.categoryFilter | filter:vm.search as filtered track by $index -->
                          <li
                            ng-repeat="librarydatabase in vm.librarydatabases | orderBy : 'Title' | librarydatabasesFilter:vm.categoryFilter | filter:vm.search as filtered track by $index"
                            class="ng-scope">
@@ -7446,7 +7423,6 @@
                              </div>
                            </div>
                          </li>
-                         <!-- end ngRepeat: librarydatabase in vm.librarydatabases | orderBy : 'Title' | librarydatabasesFilter:vm.categoryFilter | filter:vm.search as filtered track by $index -->
                          <li
                            ng-repeat="librarydatabase in vm.librarydatabases | orderBy : 'Title' | librarydatabasesFilter:vm.categoryFilter | filter:vm.search as filtered track by $index"
                            class="ng-scope">
@@ -7477,7 +7453,6 @@
                              </div>
                            </div>
                          </li>
-                         <!-- end ngRepeat: librarydatabase in vm.librarydatabases | orderBy : 'Title' | librarydatabasesFilter:vm.categoryFilter | filter:vm.search as filtered track by $index -->
                          <li
                            ng-repeat="librarydatabase in vm.librarydatabases | orderBy : 'Title' | librarydatabasesFilter:vm.categoryFilter | filter:vm.search as filtered track by $index"
                            class="ng-scope">
@@ -7503,7 +7478,6 @@
                              </div>
                            </div>
                          </li>
-                         <!-- end ngRepeat: librarydatabase in vm.librarydatabases | orderBy : 'Title' | librarydatabasesFilter:vm.categoryFilter | filter:vm.search as filtered track by $index -->
                          <li
                            ng-repeat="librarydatabase in vm.librarydatabases | orderBy : 'Title' | librarydatabasesFilter:vm.categoryFilter | filter:vm.search as filtered track by $index"
                            class="ng-scope">
@@ -7530,7 +7504,6 @@
                              </div>
                            </div>
                          </li>
-                         <!-- end ngRepeat: librarydatabase in vm.librarydatabases | orderBy : 'Title' | librarydatabasesFilter:vm.categoryFilter | filter:vm.search as filtered track by $index -->
                          <li
                            ng-repeat="librarydatabase in vm.librarydatabases | orderBy : 'Title' | librarydatabasesFilter:vm.categoryFilter | filter:vm.search as filtered track by $index"
                            class="ng-scope">
@@ -7556,7 +7529,6 @@
                              </div>
                            </div>
                          </li>
-                         <!-- end ngRepeat: librarydatabase in vm.librarydatabases | orderBy : 'Title' | librarydatabasesFilter:vm.categoryFilter | filter:vm.search as filtered track by $index -->
                          <li
                            ng-repeat="librarydatabase in vm.librarydatabases | orderBy : 'Title' | librarydatabasesFilter:vm.categoryFilter | filter:vm.search as filtered track by $index"
                            class="ng-scope">
@@ -7583,7 +7555,6 @@
                              </div>
                            </div>
                          </li>
-                         <!-- end ngRepeat: librarydatabase in vm.librarydatabases | orderBy : 'Title' | librarydatabasesFilter:vm.categoryFilter | filter:vm.search as filtered track by $index -->
                          <li
                            ng-repeat="librarydatabase in vm.librarydatabases | orderBy : 'Title' | librarydatabasesFilter:vm.categoryFilter | filter:vm.search as filtered track by $index"
                            class="ng-scope">
@@ -7610,7 +7581,6 @@
                              </div>
                            </div>
                          </li>
-                         <!-- end ngRepeat: librarydatabase in vm.librarydatabases | orderBy : 'Title' | librarydatabasesFilter:vm.categoryFilter | filter:vm.search as filtered track by $index -->
                          <li
                            ng-repeat="librarydatabase in vm.librarydatabases | orderBy : 'Title' | librarydatabasesFilter:vm.categoryFilter | filter:vm.search as filtered track by $index"
                            class="ng-scope">
@@ -7636,7 +7606,6 @@
                              </div>
                            </div>
                          </li>
-                         <!-- end ngRepeat: librarydatabase in vm.librarydatabases | orderBy : 'Title' | librarydatabasesFilter:vm.categoryFilter | filter:vm.search as filtered track by $index -->
                          <li
                            ng-repeat="librarydatabase in vm.librarydatabases | orderBy : 'Title' | librarydatabasesFilter:vm.categoryFilter | filter:vm.search as filtered track by $index"
                            class="ng-scope">
@@ -7660,7 +7629,6 @@
                              </div>
                            </div>
                          </li>
-                         <!-- end ngRepeat: librarydatabase in vm.librarydatabases | orderBy : 'Title' | librarydatabasesFilter:vm.categoryFilter | filter:vm.search as filtered track by $index -->
                          <li
                            ng-repeat="librarydatabase in vm.librarydatabases | orderBy : 'Title' | librarydatabasesFilter:vm.categoryFilter | filter:vm.search as filtered track by $index"
                            class="ng-scope">
@@ -7686,7 +7654,6 @@
                              </div>
                            </div>
                          </li>
-                         <!-- end ngRepeat: librarydatabase in vm.librarydatabases | orderBy : 'Title' | librarydatabasesFilter:vm.categoryFilter | filter:vm.search as filtered track by $index -->
                          <li
                            ng-repeat="librarydatabase in vm.librarydatabases | orderBy : 'Title' | librarydatabasesFilter:vm.categoryFilter | filter:vm.search as filtered track by $index"
                            class="ng-scope">
@@ -7716,7 +7683,6 @@
                              </div>
                            </div>
                          </li>
-                         <!-- end ngRepeat: librarydatabase in vm.librarydatabases | orderBy : 'Title' | librarydatabasesFilter:vm.categoryFilter | filter:vm.search as filtered track by $index -->
                          <li
                            ng-repeat="librarydatabase in vm.librarydatabases | orderBy : 'Title' | librarydatabasesFilter:vm.categoryFilter | filter:vm.search as filtered track by $index"
                            class="ng-scope">
@@ -7740,7 +7706,8 @@
                              </div>
                            </div>
                          </li>
-                         <!-- end ngRepeat: librarydatabase in vm.librarydatabases | orderBy : 'Title' | librarydatabasesFilter:vm.categoryFilter | filter:vm.search as filtered track by $index -->
+                         <div data-jplist-control="no-results" data-group="data-group-1" data-name="no-results">No Results Found</div>
+
                        </ul>
                      </div>
                    </div>
