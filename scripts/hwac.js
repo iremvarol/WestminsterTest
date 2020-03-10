@@ -21,12 +21,9 @@ $(document).ready(function () {
                 $(this).remove();
             }
 
-
         });
 
-
     }
-
 
     Reveal.initialize({
         autoSlide: 15000,
