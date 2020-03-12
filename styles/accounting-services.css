@@ -4,6 +4,16 @@
     font-weight: bold;
 }
 
+#contact-us {
+    color: #101820;
+    font-family: "CeraPRO-Bold", "Lato", sans-serif;
+    font-weight: normal;
+    line-height: 1;
+    margin: 0 0 2rem 0;
+    font-size: 3.6rem;
+
+}
+
 .col-md-12.accordions {
     padding-left: 0px;
     padding-right: 0px;
